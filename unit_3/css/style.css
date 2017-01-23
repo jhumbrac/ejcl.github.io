@@ -1,0 +1,73 @@
+body {
+	text-align: center;
+	background: rgb(255, 255, 255);
+	background-size: cover;
+}
+
+h1 {
+	color: rgb(0, 125, 186);
+	font-size: 44px;
+	text-transform: uppercase;
+	font-family: "Century Gothic", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	text-decoration: none;
+}
+
+hr {
+	width: 400px;
+}
+
+h2 {
+	color: rgb(89, 90, 91);
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: "Century Gothic", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#navbar {
+	text-align: justify;
+	max-width: 1000px;
+	padding-left: 30%;
+	padding-right: 30%; 
+}
+
+#navbar:after {
+	content: ' ';
+	display: inline-block;
+	width: 100%;
+}
+
+#navbar li {
+	display: inline-block;
+}
+
+.menuitem {
+	color: rgb(89, 90, 91);
+	font-size: 25px;
+	font-family: "Century Gothic", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.bodycopy {
+	color: rgb(89, 90, 91);
+	font-family: "Century Gothic", sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	font-style: normal;
+	text-decoration: none;	
+}
+
+.link {
+	color: rgb(0, 125, 189);
+	font-family: "Century Gothic", sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	font-style: normal;
+	text-decoration: none;
+}
