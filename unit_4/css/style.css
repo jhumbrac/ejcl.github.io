@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i|Raleway:100,200,300");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 30px;
+	background-color: 248, 248, 248;
+	text-align: center;
+}
+
+nav a {
+	color: rgb(54, 56, 64);
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	text-decoration: none;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+main {
+	text-align: center;
+	background: url("../images/background.jpg") no-repeat;
+	background-size: cover;
+	padding: 250px;
+}
+
+.landing {
+	padding: 30px;
+	background-color: rgba(248, 248, 248, 0.60);	
+}
+
+h1 {
+	color: rgb(10, 69, 144);
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+#mainline {
+	height: 1px;
+	border: none;
+	color: rgb(54, 56, 64);
+	background-color: rgb(54, 56, 64);
+	width: 30%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+h2 {
+	color: rgb(54, 56, 64);
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 60px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.about {
+	background-color: rgb(255, 255, 255);	
+}
+
+h3 {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	color: rgb(54, 56, 64);
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+}
+
+.line {
+	height: 2px;
+	border: none;
+	color: rgb(54, 56, 64);
+	background-color: rgb(54, 56, 64);
+	width: 2%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.bio {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	color: rgb(54, 56, 64);
+	font-family: "Cormorant Garamond", serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.3;
+	text-align: center;
+	text-decoration: none;	
+}
+
+.contact {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	color: rgb(10, 69, 144);
+	font-family: "Cormorant Garamond", serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.3;
+	text-align: center;
+	text-decoration: none;	
+}
+
+footer {
+	padding: 30px;
+	background-color: rgb(248, 248, 248);
+	text-align: center;
+}
+
+.footer {
+	color: rgb(54, 56, 64);
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	text-decoration: none;
+}
