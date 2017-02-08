@@ -1,0 +1,112 @@
+@import url ("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i|Raleway:100,200,300");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	text-align: center;
+	font-style: normal;
+}
+
+header, #landing, #about, footer {
+	padding: 20px;
+	border: 1px black solid;
+}
+
+header {
+	background-color: #E8C66A;
+}
+
+nav a {
+	color: rgb(54, 56, 64);
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+	text-decoration: none;
+	margin: 0 5%;
+}
+
+main {
+	background: url("../images/background.jpg");
+	background-size: cover;
+	display: block;
+	padding: 15em 0;
+}
+
+#landing {
+	background-color: #FFE2B8;
+	margin: 0 auto;
+	}
+
+h1 {
+	color: rgb(10, 69, 144);
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 3em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+#mainline {
+	height: 2px;
+	border: none;
+	color: rgb(54, 56, 64);
+	background-color: rgb(54, 56, 64);
+	width: 25%;
+	margin: 0 auto;
+}
+
+h2, h3, footer {
+	color: rgb(54, 56, 64);
+	font-family: "Raleway", Helvetica, sans-serif;
+}
+
+h2 {
+	font-size: 2.8em;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+#about {
+	background-color: #FFE2B8;
+}
+
+h3 {
+	padding: 1em 0;
+	font-size: 1.8em;
+	font-weight: 100;
+}
+
+.line {
+	height: 2px;
+	border: none;
+	color: rgb(54, 56, 64);
+	background-color: rgb(54, 56, 64);
+	width: 2em;
+	margin: 0 auto;
+}
+
+p {
+	padding: 1em 0 2em 0;
+	width: 50%;
+	text-align: center;
+	color: rgb(54, 56, 64);	
+	font-family: "Cormorant Garamond", serif;
+	font-size: 1.2em;
+	margin: 0 auto;
+	line-height: 1.7em;
+}
+
+a {
+	color: rgb(10, 69, 144);
+	text-decoration: none;	
+}
+
+footer {
+	background-color: #FF957E;
+	font-size: 1em;
+	font-weight: 300;
+	text-decoration: none;
+}
