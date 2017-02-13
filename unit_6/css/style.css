@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Josefin+Sans');
+
+*, *:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+}
+
+header {
+	padding: 30px;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(250, 248, 244);
+}
+
+nav a {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: .8em;
+	color: rgb(54, 56, 64);
+	text-decoration: none;
+	margin: 5%;
+	padding: 2px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+nav a:hover {
+	color: rgb(26, 112, 71);
+}
+
+main {
+	background: url("../images/background.jpg") no-repeat center center scroll;
+	background-size: cover;
+	padding-top: 300px;
+	padding-bottom: 400px;
+}
+
+h1, 
+h2, 
+h3 {
+	font-family: "Josefin Sans", sans-serif;
+	text-align: center;
+	padding: 5px;
+}
+
+h1 {
+	letter-spacing: 2px;
+	font-size: 4.2em;
+	color: rgb(26, 112, 71);
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-size: 1.5em;
+	color: rgb(54, 56, 64);
+}
+
+h3 {
+	letter-spacing: 2px;
+	font-size: 1.9em;	
+	color: rgb(54, 56, 64);
+}
+
+p {
+	font-family: "Cardo", serif;
+	font-size: 1.1em;
+	padding: 5px;
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(26, 112, 71);
+}
+
+a:hover {
+	color: rgb(54, 56, 64);		
+}
+
+hr {
+	height: 2px;
+	border: none;
+	color: rgb(54, 56, 64);
+	background-color: rgb(54, 56, 64);
+	width: 20px;
+	text-align: center;
+	margin: 15px auto;
+}
+
+.wrapper {
+	margin: 8% 0;
+	width: 100%;
+	clear: both;
+}
+
+.about {
+	width: 30em;
+	margin: 0 auto;
+	text-align: center;
+	clear: both;
+}
+
+.portfolio {
+	width: 30%;
+	min-width: 30em;
+	float: left;
+	margin: 0 1.5%;
+	padding-bottom: 8%;
+	text-align: center;
+}
+
+img {
+	width: 80%;
+	margin: 0 auto;
+	min-width: 30em;
+	max-width: 60em;
+	display: inline-block;
+}
+
+footer {
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	clear: both;
+	background-color: rgb(250, 248, 244);
+}
+
+.footer {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 1.2em;
+	color: rgb(54, 56, 64);	
+	text-align: center;
+}
