@@ -15,6 +15,7 @@ header {
 	width: 100%;
 	text-align: center;
 	background-color: rgb(250, 248, 244);
+	float: left;
 }
 
 nav a {
