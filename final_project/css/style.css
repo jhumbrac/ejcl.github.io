@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Josefin+Sans');
+
+*, *:after *:before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: "Cardo", serif;
+	line-height:1.5;
+}
+
+header {
+	padding: 2em;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(250, 248, 244);
+}
+
+nav a {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 1em;
+	color: rgb(54, 56, 64);
+	text-decoration: none;
+	margin: 2% 5%;
+	padding: 1em;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+}
+
+nav a:hover {
+	color: rgb(26, 112, 71);
+	border-bottom: 1px solid rgb(26, 112, 71);
+}
+
+main {
+	background: url("../images/background.jpg") no-repeat center center scroll;
+	background-size: cover;
+	height: 100vh;
+}
+
+.heading {
+	 padding: 20% 0 20%;
+}
+
+h1, 
+h2, 
+h3 {
+	font-family: "Josefin Sans", sans-serif;
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+}
+
+h1 {
+	letter-spacing: 2px;
+	font-size: 4.25em;
+	color: rgb(26, 112, 71);
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-size: 1.5em;
+	color: rgb(54, 56, 64);
+}
+
+h3 {
+	letter-spacing: 2px;
+	font-size: 2em;	
+	color: rgb(54, 56, 64);
+}
+
+p {
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(26, 112, 71);
+}
+
+a:hover {
+	color: rgb(54, 56, 64);		
+}
+
+hr {
+	height: 2px;
+	border: none;
+	color: rgb(54, 56, 64);
+	background-color: rgb(54, 56, 64);
+	width: 20px;
+	text-align: center;
+	margin: 15px auto;
+}
+
+.wrapper {
+	margin: 8% auto;
+	width: 84%;
+	clear: both;
+}
+
+.about {
+	width: 80%;
+	max-width: 31em;
+	margin: 4% auto 0 auto;
+	padding-top: 2%;
+	text-align: center;
+	clear: both;
+}
+
+.portfolio {
+	width: 100%;
+	max-width: 34em;
+	float: left;
+	margin: 0 auto;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+footer {
+	padding: 1.5em;
+	width: 100%;
+	text-align: center;
+	clear: both;
+	background-color: rgb(250, 248, 244);
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 1.2em;
+	color: rgb(54, 56, 64);	
+}
+
+@media only screen and (min-width: 600px) and (max-width: 2155px) {
+.wrapper {
+	display: block;
+	width: 100%;
+	margin: 8% 0 8% 0;
+}
+.about {
+	display: block;
+	width: 31em;
+	margin: 0 auto;
+	text-align: center;
+	clear: both;
+}
+.portfolio {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	clear: both;
+}
+}
+
+@media only screen and (max-width: 890px) {
+  .about {
+    width: 80%;
+    margin: 4% auto 0 auto;
+    text-align: center;
+    clear: both;
+  }
+  
+  nav a {
+  margin: 1.5% auto;
+  padding: .5em;
+}
+}
+
+@media only screen and (max-width: 620px) {
+
+.about {
+	width: 80%;
+	margin: 4% auto 0 auto;
+	text-align: center;
+	clear: both;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+nav a {
+	font-size: .75em;
+}
+}
