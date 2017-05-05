@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cardo|Josefin+Sans');
 
-*, *:after *:before {
+*, *:after, *:before {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -13,26 +13,30 @@ body {
 }
 
 header {
-	padding: 2em;
+	/* padding: 1em; */
 	width: 100%;
 	text-align: center;
-	background-color: rgb(250, 248, 244);
 }
-
+nav {
+    background-color: #faf8f4;
+    padding-bottom: 1em;
+}
 nav a {
 	font-family: "Josefin Sans", sans-serif;
 	font-size: 1em;
 	color: rgb(54, 56, 64);
 	text-decoration: none;
-	margin: 2% 5%;
-	padding: 1em;
+	margin: 0 3%;
+	padding: 2em 2em 1em;
 	text-transform: uppercase;
 	letter-spacing: .25em;
+	display: inline-block;
+	border-bottom: 1px solid rgba(26, 112, 71, 0);
 }
 
 nav a:hover {
 	color: rgb(26, 112, 71);
-	border-bottom: 1px solid rgb(26, 112, 71);
+	border-bottom: 1px solid rgba(26, 112, 71, 1);
 }
 
 main {
@@ -175,13 +179,6 @@ footer {
 }
 
 @media only screen and (max-width: 620px) {
-
-.about {
-	width: 80%;
-	margin: 4% auto 0 auto;
-	text-align: center;
-	clear: both;
-}
 
 h1 {
 	font-size: 3em;
